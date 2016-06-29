@@ -1,0 +1,141 @@
+h1, h2, h3 {
+    font: 400 80px/1.2'Nixie One', Georgia, serif;
+}
+
+p, h4 {
+   font: 400 15px/1.6 'Ledger', Garamond, Georgia, serif;
+}
+
+@media only screen and (max-width: 300px) {
+    .header-content-1 {
+        display: block;
+        width: 100%;
+    }
+
+    header-content-2 {
+        display: block;
+        width: 100%;
+    }
+
+    #logo {
+        display: block !important;
+        float: none !important;
+        margin: 0 auto !important;
+        width: 35px !important;
+    }
+
+    #page-title, #sub-title {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 316px) {
+    #logo {width: 35px;}
+    h1 {font-size: 26px;}
+}
+
+@media only screen and (max-width: 378px) {
+    #logo {height: 40px;}
+    h1 {font-size: 30px;}
+    h2 {font-size: 18px;}
+    h3 {font-size: 16px;}
+    h4 {font-size: 14px;}
+    p {font-size:14px;}
+    .featured a {font-size:10px;}
+}
+
+@media only screen and (min-width: 379px) and (max-width: 991px) {
+    .section-title {margin: 2em 0 0 0;}
+    .thumbnail {margin: 3em auto;}
+    h1 {font-size: 40px;}
+    h2 {font-size: 24px;}
+    h3 {font-size: 18px;}
+    h4 {font-size: 14px;}
+    p {font-size: 14px;}
+    .featured a {font-size:14px;}
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {font-size: 48px;}
+    h2 {font-size: 30px;}
+    h3 {font-size: 28px;}
+    h4 {font-size: 18px;}
+    p {font-size: 16px;}
+    .featured a {font-size:12px;}
+}
+
+p, a, h1, h2, h3, h4, h5 {
+    color: #2d3142;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.header-content-2 h1, h4 {
+    text-align: right;
+    margin: 0;
+}
+
+#page-title {
+    font-weight: 200;
+}
+
+#sub-title {
+    text-transform: uppercase;
+}
+
+.section-title {
+    color: #4f5d75;
+    opacity: 0.6;
+    padding: .2em 0 0 .2em;
+    margin: 1em 0 0 0;
+}
+
+.featured h2, p {
+    text-align: center;
+    color: #2d3c49;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header:last-of-type {
+    border-bottom: 4px solid #ef8354;
+    padding: 0 0 1em 0;
+    margin: 1em 0 0 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.header-content-1 {
+    padding-left: 0;
+}
+
+#logo {
+    margin: 0;
+    float: left;
+    width: 80px;
+}
+
+.hero {
+    width: 100%;
+    margin: 2em auto 0 auto;
+}
+.thumbnail {
+    margin: 0 auto;
+    border: none;
+    padding: .5em 0 .5em 0;
+}
+
+.featured:last-of-type {
+    margin-bottom: 3em;
+}
+
+.attribution {
+    display: none;
+}
